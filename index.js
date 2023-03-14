@@ -39,8 +39,11 @@ weatherIcon.src="images/drizzle.png";
 weatherIcon.src="images/mist.png";
   }
   else if(data.weather[0].main== "Snow"){
-weatherIcon.src="images/snow.png"
+weatherIcon.src="images/snow.png";
   }
+  else if(data.weather[0].main== "Haze"){
+    weatherIcon.src="images/icons8-haze-96.png";
+      }
 
   document.querySelector(".error").style.display="none";
 
